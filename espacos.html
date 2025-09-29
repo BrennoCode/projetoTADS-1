@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espaços - DevWork Coworking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="logo">DevWork</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="espacos.html" class="active">Espaços</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="login.html" class="btn-login">Login</a></li>
+        <li><a href="reservar.html" class="btn-primary">Reserve Agora</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== TÍTULO ===== -->
+  <section class="hero hero-espacos">
+    <h1>Nossos Espaços</h1>
+    <p>Encontre o ambiente perfeito para sua produtividade.  
+    Todos os espaços incluem Wi-Fi, café e acesso 24/7.</p>
+  </section>
+
+  <!-- ===== CONTAINER ===== -->
+  <section class="espacos-container">
+    <!-- FILTROS -->
+    <aside class="filtros">
+      <h3>Filtros</h3>
+      <input type="text" placeholder="Buscar...">
+
+      <label>Tipo de Espaço</label>
+      <select>
+        <option>Todos</option>
+        <option>Compartilhado</option>
+        <option>Privativo</option>
+        <option>Reunião</option>
+      </select>
+
+      <label>Preço por Hora</label>
+      <input type="range" min="0" max="150" value="50">
+
+      <label>Capacidade</label>
+      <select>
+        <option>Qualquer</option>
+        <option>1 pessoa</option>
+        <option>2-4 pessoas</option>
+        <option>5-8 pessoas</option>
+      </select>
+
+      <label><input type="checkbox"> Apenas disponíveis</label>
+    </aside>
+
+    <!-- LISTA DE ESPAÇOS -->
+    <div class="espacos-lista">
+
+      <!-- CARD -->
+      <div class="espaco-card">
+        <img src="img/sala-executiva.jpg" alt="Sala Executiva">
+        <h3>Sala de Reunião Executiva</h3>
+        <p>Sala de reunião com sistema de videoconferência profissional</p>
+        <div class="tags">
+          <span>Sistema A/V completo</span>
+          <span>Videoconferência 4K</span>
+          <span>Catering disponível</span>
+        </div>
+        <p class="preco">R$ 50 <small>/hora</small></p>
+        <div class="card-actions">
+          <button class="btn-outline">Ver Detalhes</button>
+          <button class="btn-disabled">Indisponível</button>
+        </div>
+      </div>
+
+      <div class="espaco-card">
+        <img src="img/mesa-basica.jpg" alt="Mesa Compartilhada">
+        <h3>Mesa Compartilhada Básica</h3>
+        <p>Opção econômica em ambiente dinâmico e criativo</p>
+        <div class="tags">
+          <span>Wi-Fi</span>
+          <span>Café</span>
+          <span>Tomadas</span>
+        </div>
+        <p class="preco">R$ 15 <small>/hora</small></p>
+        <div class="card-actions">
+          <button class="btn-outline">Ver Detalhes</button>
+          <button class="btn-primary">Reservar</button>
+        </div>
+      </div>
+
+      <div class="espaco-card">
+        <img src="img/escritorio.jpg" alt="Escritório Empresa">
+        <h3>Escritório Privativo Empresa</h3>
+        <p>Escritório completo para equipes de até 8 pessoas</p>
+        <div class="tags">
+          <span>Internet dedicada</span>
+          <span>Sala de reunião</span>
+          <span>Copa privativa</span>
+        </div>
+        <p class="preco">R$ 120 <small>/hora</small></p>
+        <div class="card-actions">
+          <button class="btn-outline">Ver Detalhes</button>
+          <button class="btn-primary">Reservar</button>
+        </div>
+      </div>
+
+      <div class="espaco-card">
+        <img src="img/sala-criativa.jpg" alt="Sala Criativa">
+        <h3>Sala de Reunião Criativa</h3>
+        <p>Ambiente inspirador para brainstorming e workshops</p>
+        <div class="tags">
+          <span>Quadro interativo</span>
+          <span>Som ambiente</span>
+          <span>Mobiliário criativo</span>
+        </div>
+        <p class="preco">R$ 40 <small>/hora</small></p>
+        <div class="card-actions">
+          <button class="btn-outline">Ver Detalhes</button>
+          <button class="btn-primary">Reservar</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h3>DevWork</h3>
+        <p>O futuro do trabalho colaborativo no coração da cidade.</p>
+      </div>
+      <div>
+        <h3>Espaços</h3>
+        <ul>
+          <li>Mesas Compartilhadas</li>
+          <li>Escritórios Privativos</li>
+          <li>Salas de Reunião</li>
+          <li>Eventos</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Empresa</h3>
+        <ul>
+          <li>Sobre Nós</li>
+          <li>Comunidade</li>
+          <li>Carreiras</li>
+          <li>Imprensa</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <p>contato@devwork.com</p>
+        <p>Av. Prof. Luiz Ignácio Anhaia Mello, 1363</p>
+        <p>São Paulo - SP</p>
+      </div>
+    </div>
+    <p class="copy">© 2025 DevWork. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
